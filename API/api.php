@@ -72,7 +72,7 @@ switch ($request) {
 
     case money:
         masterconnect();
-        $money = 0;
+        $money = 20000;
         $sqldata = searchMoney($dbcon);
 
         while ($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC)) {
